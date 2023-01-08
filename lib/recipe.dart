@@ -15,6 +15,9 @@ class Recipe{
   ),
   Recipe(
     "Grilled Cheese",
-    "assets/grilled-cheese.jpg")
+    "assets/grilled_cheese.jpg"),
+  Recipe(
+    "Chocolate Chip Cookies",
+    "assets/assets/chocalate_chip_cookies.jpg")
 ];
 }

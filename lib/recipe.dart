@@ -18,6 +18,6 @@ class Recipe{
     "assets/grilled_cheese.jpg"),
   Recipe(
     "Chocolate Chip Cookies",
-    "assets/assets/chocalate_chip_cookies.jpg")
+    "assets/chocolate_chip_cookies.jpg")
 ];
 }

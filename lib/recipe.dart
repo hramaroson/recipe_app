@@ -10,8 +10,11 @@ class Recipe{
     "assets/spaghetti_and_meatballs.jpg"
   ),
   Recipe(
-    "Tomato soup",
+    "Tomato Soup",
     "assets/tomato_soup.jpg"
-  )
+  ),
+  Recipe(
+    "Grilled Cheese",
+    "assets/grilled-cheese.jpg")
 ];
 }

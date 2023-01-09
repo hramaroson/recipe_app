@@ -36,6 +36,15 @@ class _RecipeDetailState extends State<RecipeDetail>{
             Text(
               widget.recipe.label,
               style: const TextStyle(fontSize: 18),
+            ),
+            Expanded(
+              child: ListView.builder(
+                itemCount: widget.recipe.ingredients.length,
+                itemBuilder: (BuildContext context, int index){
+                  final ingredient = widget.recipe.ingredients[index];
+                  return Text("${ingredient.quantity} ${ingredient.mesure} "
+                  "${ingredient.name}");
+                })
             )
           ],
         ),
